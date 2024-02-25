@@ -7,7 +7,6 @@ import { useEffect, useState } from "react";
 
 const Home = () => {
   const { data, setData, filterData, loading } = useFetch(ALL_RESTAURANT);
-
   return (
     <div className="w-full py-9">
       {loading ? (
